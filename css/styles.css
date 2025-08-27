@@ -153,21 +153,24 @@ input::placeholder {
 }
 
 .right .total{
-    background: #007bff;
+    background: #969696;
     padding: 30px;
 }
 
 .right .total h4{
     font-size: 28px;
+    color: #0c498a;
 }
 
 .right .total h2{
     font-size: 36px;
     padding: 14px 0;
+    color: #007bff;
 }
 
 .total p{
     font-weight: 400;
+    color:#0c498a
 }
 
 .total p span{
@@ -182,6 +185,7 @@ input::placeholder {
 
 .notificacion h5{
     font-weight: 400;
+    color: #0c498a;
 }
 
 .notificacion h5 span{
