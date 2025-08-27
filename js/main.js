@@ -59,7 +59,7 @@ function simulador() {
     sGanancia.textContent = ganancia;
     sNombres.textContent = cNombres;
     sCorreo.textContent = cEmail;
-    
+     
 }
 
 document.addEventListener('DOMContentLoaded', function () {
