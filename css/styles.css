@@ -1,13 +1,10 @@
-@font-face {
-    font-family: 'Montserrat'; 
-    src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 #simulator{
@@ -22,10 +19,10 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #0c498a;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #0c498a;
 }
 
 .cont-flex{
@@ -40,7 +37,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #0c498a;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -48,7 +45,7 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #0c498a;
 }
 
 form{
@@ -79,7 +76,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #0c498a;
 }
 .group-data input,
 .group-data select{
@@ -92,22 +89,22 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #007bff;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #0c498a;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
-    background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    background: #fff;
+    border: 1px solid #969696;
+    color: #969696;
 }
 
 input, select{
     padding: 14px 30px;
-    background: #f5f8fa;
+    background: #dfdfdf;
     border: 0;
     border-bottom: 2px solid #7a93ab;
     outline: none;
@@ -143,20 +140,20 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #202d37;
+    color: #0c498a;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: #0c498a;
     font-weight: 600;
     font-size: 24px;
 }
 
 .right .total{
-    background: #1c988259;
+    background: #007bff;
     padding: 30px;
 }
 
@@ -179,7 +176,7 @@ input::placeholder {
 
 .notificacion{
     padding: 20px;
-    border: 1px solid #1c9882;
+    border: 1px solid #969696;
     margin-top: 40px;
 }
 
