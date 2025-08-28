@@ -22,8 +22,7 @@ function simulador() {
     const contPost = document.getElementById('post-simulation');
 
     // HACEMOS LA ACCIÓN DE QUITAR LA CLASE DISABLE DEL CONTPOST PARA PONERSELA AL CONTPRE
-    contPost.classList.remove('disabled');
-    contPre.classList.add('disabled');
+
 
     // VARIABLES PARA REALIZAR LOS CÁLCULOS 
     let ganancia = 0;
@@ -63,6 +62,9 @@ function simulador() {
         sGanancia.textContent = ganancia;
         sNombres.textContent = cNombres;
         sCorreo.textContent = cEmail;
+
+        contPost.classList.remove('disabled');
+        contPre.classList.add('disabled');
     }
 
 
