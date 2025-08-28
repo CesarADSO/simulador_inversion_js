@@ -59,7 +59,7 @@ function simulador() {
                 break;
         }
         sTotal.textContent = total;
-        sGanancia.textContent = ganancia;
+        sGanancia.textContent = ganancia.toFixed(2);
         sNombres.textContent = cNombres;
         sCorreo.textContent = cEmail;
 
