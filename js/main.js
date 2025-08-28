@@ -33,6 +33,10 @@ function simulador() {
         alert("Por favor diligencie todos los campos");
     }
     else {
+
+        contPost.classList.remove('disabled');
+        contPre.classList.add('disabled');
+
         switch (cOpciones) {
             case '1':
                 // En este case realizaremos el cálculo si el tiempo corresponde a un año
@@ -63,8 +67,6 @@ function simulador() {
         sNombres.textContent = cNombres;
         sCorreo.textContent = cEmail;
 
-        contPost.classList.remove('disabled');
-        contPre.classList.add('disabled');
     }
 
 
